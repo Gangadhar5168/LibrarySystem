@@ -5,6 +5,8 @@ public class Main {
         ArrayList<Book> bookArray = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         while(true){
+            System.out.println();
+            System.out.println();
             System.out.println("--- Library Menu ---");
             System.out.println("1. Add a Book");
             System.out.println("2. View All Books");
@@ -29,7 +31,7 @@ public class Main {
                     break;
                 case 2:
                 if(bookArray.isEmpty()){
-                    System.out.println("There no Books avaialble in the library");
+                    System.out.println("There no Books available in the library");
                 }
                 else{
                 for (Book i:bookArray){

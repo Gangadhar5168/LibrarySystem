@@ -34,6 +34,7 @@ public boolean borrowBook(){
     }
     else{
     isAvailable = false;
+    System.out.println("Book named "+title+" is succesfully borrowed");
     return isAvailable;
     }
 }
@@ -44,6 +45,7 @@ public boolean returnBook(){
         return isAvailable;
     }
     else{
+    System.out.println("Book named "+title+" is succesfully returned");
     isAvailable = true;
     return isAvailable;
     }
